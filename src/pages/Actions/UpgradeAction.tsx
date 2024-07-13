@@ -88,7 +88,8 @@ export const RenderUpgradeBody = () => {
           isModalOpen={isUpgradeModalOpen}
           closeModalHandler={() => closeUpgradeModal()}
           modalTitle={
-            [...nodeBonALICE, ...bonALICEs].length > 0
+            // [...nodeBonALICE, ...bonALICEs].length > 0
+            [...nodeBonALICE].length > 0
               ? `Select ${strings.nft}`
               : `No ${strings.nft} to Upgrade`
           }
